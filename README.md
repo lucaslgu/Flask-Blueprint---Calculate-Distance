@@ -10,7 +10,7 @@ This is an application developed in the micro framework flask to calculate the d
 ## Back end
 - Python
 - Flask
-- Geodesic
+- Geopy
 - Logging
 - PyUnit
 
@@ -26,8 +26,11 @@ git clone https://github.com/lucaslgu/Flask-Blueprint---Calculate-Distance.git
 # run the project
 python main.py
 
+# run the test
+python test_calculate_distance.py
+
 # request endpoint
-http://localhost:5000/?yourLocate=00.00000000000,00.00000000000
+[HttpGet] http://localhost:5000/00.00000000000,00.00000000000
 
 # return
 message - distance calculation
