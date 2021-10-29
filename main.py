@@ -27,8 +27,8 @@ def distance_location(your_distance):
 
 # endpoint to calculate distance
 @app.route(...)
-def calculate_distance(your_distance):
-    your_distance = request.args.get('your_distance')
+def calculate_distance():
+    your_distance = request.args.get('  ')
     # "try catch" to handle any errors that arrive
     try:
         distance = distance_location(your_distance)
